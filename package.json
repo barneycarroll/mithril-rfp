@@ -1,0 +1,35 @@
+{
+  "name": "mithril-rfp",
+  "version": "0.0.1",
+  "description": "Extends m.request to offer Promise API compatibility and accept the Fetch API shorthand signature.",
+  "main": "rfp.js",
+  "module": "rfp.es.js",
+  "jsnext:main": "rfp.es.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barneycarroll/mithril-rfp.git"
+  },
+  "keywords": [
+    "mithril",
+    "request",
+    "promise",
+    "fetch",
+    "extension",
+    "plugin"
+  ],
+  "author": "Barney <barney.carroll@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barneycarroll/mithril-rfp/issues"
+  },
+  "homepage": "https://github.com/barneycarroll/mithril-rfp#readme",
+  "devDependencies": {
+    "mithril": "^1.0.0-rc.3"
+  },
+  "peerDependencies": {
+    "mithril": "^1.0.0-rc.3"
+  }
+}
