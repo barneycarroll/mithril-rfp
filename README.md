@@ -19,7 +19,7 @@ m.request = require( 'mithril-rfp' )
 
 Bring your own Promise implementation before including rfp if you think you need it (rfp doesn't provide one). The Mithril 1.X codebase includes one at the time of writing:
 
-```
+```js
 if( !global && window )
   var global = window
 
